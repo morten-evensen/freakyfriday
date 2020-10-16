@@ -1,0 +1,57 @@
+<!-- Hei Morten, 
+I denne oppgaven vil jeg at du skal lage reklame for en sko med en animasjon/loop/gif, og en popup meny.-->
+
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<meta charset="utf-8">
+	<title>Nike shoe</title>
+	<meta name="author" content="Your Name">
+	<meta name="description" content="Example description">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<header>
+        <div class="logo-wrap">
+            <img src="images/nike3.png" alt="Nike logo">
+            <div onclick="drop()" class="dropdown">
+               <i class="fa fa-bars"></i>
+            </div>
+        </div>
+        <div id="drop" class="dropdown-content">
+            <a href="#">Learn more</a>
+            <a href="#">Buy now</a>
+            <a href="#">Just do it</a>
+        </div>
+    </header>
+	<main>
+        <div id="just" class="just">
+            <img src="images/just.png" alt="Just do it.">
+        </div>
+        
+        <div class="container">
+            <div class="slideshow-container">
+                <div class="slide-container fade">
+                    <img src="images/shoe1.jpg" alt="Image of Nike shoe">
+                </div>
+                <div class="slide-container fade">
+                    <img src="images/shoe2.jpg" alt="Image of Nike shoe">
+                </div>
+            </div>
+        </div>
+        <div class="text-container">
+            <h2>Nike Air-Max blue X</h2>
+            <p>Experience a new dimension of comfort with the Air-Max blue X</p>
+            <button>Buy now</button>
+            <div class="empty-div"></div>
+        </div>
+    </main>
+	<footer></footer>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
