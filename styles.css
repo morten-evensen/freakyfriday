@@ -39,7 +39,8 @@ body, html {
 .dropdown-content {
     position: relative;
     background-color: #f1f1f1;
-    margin: 0 5px;
+    margin: 0 px;
+    
     float: right;
     top: -20px;
 }
@@ -50,10 +51,11 @@ body, html {
 
 .dropdown-content a {
     text-decoration: none;
-    color: black;
+    color: white;
+    background-color: black;
     display: block;
-    padding: 5px;
-    border: 1px solid black;
+    padding: 8px;
+    border: 1px solid grey;
 }
 
 .dropdown-content a:hover {
